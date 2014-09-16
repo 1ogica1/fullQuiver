@@ -1,0 +1,76 @@
+body {
+	background-image: url("images/bg.jpg");
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11.5px;
+}
+footer {
+	font-size: 11px;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+#content {
+	background-color: #fff;
+	display: block;
+	margin: auto;
+	width: 850px;
+}
+#productTable tr, td {
+	padding: 0 15px;
+	vertical-align: top;
+}
+#slideshow {
+	display: block;
+	margin: auto;
+}
+.style1Main { 
+	margin-left: 5px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	float: left;
+	width: 65%;
+}
+.style1Side {
+	margin-right: 5px;
+	margin-top: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	float: right;
+	width: 30%;
+	padding-left: 10px;
+}
+.style2Main { 
+	margin-right: 5px;
+	margin-top: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	float: right;
+	width: 65%;
+}
+.style2Side {
+	margin-left: 5px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	float: left;
+	width: 30%;
+	padding-left: 10px;
+}
+.clear { /*Removes the floats from the webpage so the container div can have the correct height*/
+	clear: both;
+}
+.mainNav {
+	font-family: Old English Text MT, Helvetica, Arial, sans-serif;
+	font-size: 30px;
+	padding-top: 20px;
+	text-align: center;	
+}
+.mainNav a, span { /*Removes the link and sets the color of navbar links.*/
+	margin: 0 10px;
+	text-decoration: none;
+	color: black;
+}
+.mainNav a:hover { /*Adds color when the user hovers over a link*/
+	color: green;
+}
