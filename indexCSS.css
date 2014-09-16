@@ -23,7 +23,7 @@ footer {
 	display: block;
 	margin: auto;
 }
-.style1Main { 
+.style1Main { /*Index Page*/
 	margin-left: 5px;
 	margin-top: 10px;
 	padding-left: 10px;
@@ -31,7 +31,7 @@ footer {
 	float: left;
 	width: 65%;
 }
-.style1Side {
+.style1Side { /*Index Page*/
 	margin-right: 5px;
 	margin-top: 10px;
 	padding-right: 10px;
@@ -40,7 +40,7 @@ footer {
 	width: 30%;
 	padding-left: 10px;
 }
-.style2Main { 
+.style2Main { /*Products Page*/
 	margin-right: 5px;
 	margin-top: 10px;
 	padding-right: 10px;
@@ -48,7 +48,7 @@ footer {
 	float: right;
 	width: 65%;
 }
-.style2Side {
+.style2Side { /*Products Page*/
 	margin-left: 5px;
 	margin-top: 10px;
 	padding-left: 10px;
@@ -56,6 +56,12 @@ footer {
 	float: left;
 	width: 30%;
 	padding-left: 10px;
+}
+.style3Main { /*About Us Page*/
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	width: 90%;
 }
 .clear { /*Removes the floats from the webpage so the container div can have the correct height*/
 	clear: both;
