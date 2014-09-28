@@ -55,7 +55,7 @@ footer {
 	background-color: #fff;
 	display: block;
 	margin: auto;
-	width: 80%;
+	width: 70%;
 }
 #productTable tr, td { /*Used on the products page.*/
 	padding: 0 0.75vw;
@@ -115,7 +115,7 @@ footer {
 	height: 10vw;
 }
 .productName { /*Used on the product page. Sets the font size of the product names.*/
-	font-size: 0.75vw;
+	font-size: 0.8em;
 }
 .style1Main { /*Index Page*/
 	margin: 1vh 0 0 1vw;
