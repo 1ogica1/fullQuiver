@@ -5,27 +5,13 @@ Version: 1.0
 Date: 09/17/2014
 -------------------
 -->
-<html>
-	<head>
-		<title>Full Quiver - Contact Us</title>
-		<link rel="icon" type="image/jpg" href="Images/QuiverIcon.jpg">
-		
-		<link rel="stylesheet" href="indexCSS.css" />
-	</head>
-	<body>
-		<div id="content">
-			<img id="slideshow" class="headerImage" src="Images/850x200.jpg"/>
-			<img id="logo" class="headerImage" src="Images/850x100.jpg"/>
-			
-			<div class="mainNav">
-				<a href="index.html">Home</a>
-				<a href="product.html">Products</a>
-				<a href="tutorial.html">Tutorials</a>
-				<a href="aboutUs.html">About Us</a>
-				<span>Contact Us</span>
-				<a href="account.html">Account</a>
-			</div>
-			
+
+<?php 
+	$Title = "Full Quiver - Contact Us";
+	$Page = "Contact Us";
+	include 'masterPageTop.php';
+?>
+
 			</br>
 			</br>
 			</br>
@@ -105,20 +91,14 @@ Date: 09/17/2014
 						<legend>Comments</legend>
 						
 						<div class="fieldDiv">
-							<div class="labelDiv">
+							<div class="commentDiv">
 								<textarea maxlength="450"></textarea>
-							</div>
-							<div class="inputDiv">
-								
 							</div>
 						</div>
 					</fieldset>
 				</form>
 			</div>
 			
-			<footer>
-					Full Quiver &copy; 2014 All Chooches Reserved
-			</footer>
-		</div>
-	</body>
-</html>
+			<?php
+				include 'masterPageBottom.php';
+			?>

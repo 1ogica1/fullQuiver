@@ -5,26 +5,12 @@ Version: 1.0
 Date: 09/17/2014
 -------------------
 -->
-<html>
-	<head>
-		<title>Full Quiver Tutorial</title>
-		<link rel="icon" type="image/jpg" href="Images/QuiverIcon.jpg">
-		
-		<link rel="stylesheet" href="indexCSS.css" />
-	</head>
-	<body>
-		<div id="content">
-			<img id="slideshow" class="headerImage" src="Images/850x200.jpg"/>
-			<img id="logo" class="headerImage" src="Images/850x100.jpg"/>
-			
-			<div class="mainNav">
-				<a href="index.html">Home</a>
-				<a href="product.html">Products</a>
-				<span>Tutorials</span>
-				<a href="aboutUs.html">About Us</a>
-				<a href="contactUs.html">Contact Us</a>
-				<a href="account.html">Account</a>
-			</div>
+
+<?php
+	$Title = "Full Quiver - Tutorials";
+	$Page = 'Tutorials';
+	include 'masterPageTop.php';
+?>
 			
 			<div class="youtubeTutorialDiv">
 				<iframe  src="http://www.youtube.com/embed/videoseries?list=PLoIbJ0hqnOqycSZ_oHw_0Uv9Ujslk1eRL" class="youtubeTutorial" frameborder="0" allowfullscreen></iframe>
@@ -45,10 +31,6 @@ Date: 09/17/2014
 				<img class="tutorialPicture" id="featuredProduct" src="http://placehold.it/400x400"/>
 			</div>
 			
-			<div class="clear"></div>
-			<footer>
-					Full Quiver &copy; 2014 All Chooches Reserved
-			</footer>
-		</div>
-	</body>
-</html>
+<?php
+	include 'masterPageBottom.php';
+?>

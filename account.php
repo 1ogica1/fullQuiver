@@ -5,26 +5,13 @@ Version: 1.0
 Date: 09/17/2014
 -------------------
 -->
-<html>
-	<head>
-		<title>Full Quiver - About Us</title>
-		<link rel="icon" type="image/jpg" href="Images/QuiverIcon.jpg">
-		
-		<link rel="stylesheet" href="indexCSS.css" />
-	</head>
-	<body>
-		<div id="content">
-			<img id="slideshow" class="headerImage" src="Images/850x200.jpg"/>
-			<img id="logo" class="headerImage" src="Images/850x100.jpg"/>
-				
-			<div class="mainNav">
-				<a href="index.html">Home</a>
-				<a href="product.html">Products</a>
-				<a href="tutorial.html">Tutorials</a>
-				<span>About Us</span>
-				<a href="contactUs.html">Contact Us</a>
-				<a href="account.html">Account</a>
-			</div>
+
+<?php
+	$Title = 'Full Quiver - Account';
+	$Page = 'Account';
+	include 'masterPageTop.php';
+?>
+
 			
 			</br>
 			</br>
@@ -59,9 +46,6 @@ Date: 09/17/2014
 				</tr>
 			</table>
 	
-			<footer>
-					Full Quiver &copy; 2014 All Chooches Reserved
-			</footer>
-		</div>
-	</body>
-</html>
+			<?php
+				include 'masterPageBottom.php';
+			?>	

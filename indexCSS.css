@@ -16,6 +16,11 @@ Date: 09/17/2014
     font-family: OldEnglish;
     src: url(OldEnglish/OldEnglish.ttf);
 }
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
 body { /*Body tag for all pages.*/
 	background-image: url("images/bg.jpg");
 	font-family: Helvetica, Arial, sans-serif;
@@ -36,18 +41,18 @@ footer {
 }
 #contactUsDiv { /*Used on contact us page.*/
 	margin: 0 auto;
-	width: 20vw;
+	width: 40%;
 }
 #contactUsDiv input, select { /*Used on contact us page.*/
-	width: 12vw;
+	width: 100%;
 }
 #contactUsDiv legend { /*Used on contact us page.*/
 	font-size: 1.25em;
 	font-weight: bold;
 }
 #contactUsDiv textarea { /*Used on contact us page.*/
-	width: 25vw;
-	height: 20vh;
+	width: 100%;
+	height: 20%;
 	resize: none;
 }
 #content { /*Used on every page. White area that holds all of the content.*/
@@ -56,10 +61,16 @@ footer {
 	margin: auto;
 	width: 70%;
 }
-#productTable tr, td { /*Used on the products page.*/
-	padding: 0 0.75vw;
-	vertical-align: top;
-	font-family: Helvetica, Arial, sans-serif;
+#filterDiv a{
+	cursor: pointer;
+}
+#productsTable {
+	width: 100%;
+	height: 100%;
+}
+#productsTable tr, td { /*Used on the products page.*/
+	padding: 0 1%;
+	vertical-align: top;	
 }
 #slideshow { /*Used on every page. This will be the slideshow on the top of the page.*/
 	display: block;
@@ -68,23 +79,26 @@ footer {
 .clear { /*Removes the floats from the web page so the container div can have the correct height*/
 	clear: both;
 }
+.commentDiv {
+	width: 90%;
+}
 .featuredImage { /*Used on index page. Used to size the featured products on the right hand side.*/
-	width: 15vw;
-	height: 15vw;
+	width: 55%;
+	height: 25%;
 }
 .fieldDiv { /*Used on the contact us page. Sets the padding for each different field in the form. (Example, First Name)*/
-	padding: 1vh;
+	padding: 1.5%;
 }
 .headerImage { /*Used on every page. Sets the header logo to be the width of the whole content.*/
 	width: 100%;
 }
 .inputDiv { /*Used on the contact us page. Sets the width of every input field. Also displays the input field beside the prompt.*/
 	display: inline-block;
-	width: 8vw;
+	width: 55%;
 }
 .labelDiv { /*Used on the contact us page. Sets the width of every prompt for the inputs. Also displays the labels beside the input.*/
 	display: inline-block;
-	width: 6vw;
+	width: 35%;
 }
 .mainNav { /*Used on every page.*/
 	font-family: OldEnglish, Old English Text MT, Helvetica, Arial, sans-serif;
@@ -93,7 +107,7 @@ footer {
 	font-size: 2.5em;
 }
 .mainNav a, span { /*Removes the link and sets the color of navbar links.*/
-	margin: 0 0.5vw;
+	margin: 0 0.25em;
 	text-decoration: none;
 	color: black;
 	font-weight: normal !important;
@@ -102,16 +116,15 @@ footer {
 	color: green;
 }
 .noBorderFieldset { /*Used on the contact us page. Takes away the border for each fieldset.*/
-	padding: 1vh 0 5vh 0;
+	padding: 1% 0 5% 0;
 	border: none;
 }
 .oldFullQuiverImage { /*Used on the about us page. Sets the width and height of our company image.*/
-	width: 60vw;
-	height: 50vh;
+	width: 100%;
+	height: 60%;
 }
 .productImage { /*Used on the product page. Sets the width and height of all product images.*/
 	width: 100%;
-	height: 100%;
 }
 .productName { /*Used on the product page. Sets the font size of the product names.*/
 	font-size: 0.8em;
@@ -126,11 +139,6 @@ footer {
 	width: 60%;
 	font-size: 0.75em;
 }
-a {
-	text-decoration: none;
-	color: black;
-	font-weight: bold;
-}
 .style1Side { /*Index Page*/
 	margin: 1vh 1vw 0 0;
 	padding: 1vh 1vw 0 1vw;
@@ -142,13 +150,13 @@ a {
 	margin: 1vh 1vw 1vh 1vw;
 	padding: 1vh 1vw 0 1vw;
 	float: right;
-	width: 60%;
+	width: 70%;
 }
 .style2Side { /*Products Page*/
 	margin: 1vh 1vw 1vh 1vw;
 	padding: 1vh 1vw 0 1vw;
 	float: left;
-	width: 25%;
+	width: 15%;
 }
 .style3Main { /*About Us Page*/
 	margin: 0 auto;
