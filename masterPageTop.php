@@ -47,6 +47,8 @@ Date: 09/18/2014
 		</script>
 	</head>
 	<body>
+		<a href="#"><div style="position: absolute; width: 50px; height: 50px; left: 10px;"></div></a>
+		
 		<div id="content">
 			<ul class="rslides">
 				<li><a href="index.php?slideshow=0"><img src="Images/ArrowUp.jpg" alt="" /></a></li>
