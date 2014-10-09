@@ -28,7 +28,7 @@ Date: 09/17/2014
 						</ul>
 					</p>
 					<p>
-						Visit our <a href="aboutUs.html">About Us</a> page to read about our company!
+						Visit our <a href="aboutUs.php">About Us</a> page to read about our company!
 					</p>
 				</div>
 			</div>
