@@ -1,0 +1,38 @@
+.rslides img {
+	height: 30%;
+	width: 100%;
+}
+.rslides_tabs { /*Styling for the whole paging row.*/
+  background: white;
+  font-size: 1.25em;
+  list-style: none;
+  float: right;
+  max-width: 300px;
+  padding: 5px 0 0 0;	
+  text-align: center;
+  width: 100%;
+}
+.rslides_tabs li {
+  display: inline;
+  float: none;
+  margin-right: 1px;
+}
+
+.rslides_tabs a { /*Styling for the paging numbers of all slideshow pictures that aren't selected.*/
+  width: auto;
+  line-height: 20px;
+  padding: 9px 20px;
+  height: auto;
+  background: darkgrey;
+  display: inline;
+}
+
+.rslides_tabs li:first-child {
+  margin-left: 0;
+}
+
+.rslides_tabs .rslides_here a { /*Styling for currently selected slideshow picture pager.*/
+  background: grey;
+  color: black;
+  font-weight: bold;
+}
