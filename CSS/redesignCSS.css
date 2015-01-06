@@ -1,0 +1,623 @@
+/*
+-------------------
+Title: redesignCSS.css
+Version: 2.0
+Date: 12/04/2014
+-------------------
+*/
+@font-face {
+    font-family: SerifFont;
+    src: url(serifFont.ttf);
+}
+@font-face {
+    font-family: OldEnglish;
+    src: url(../OldEnglish/OldEnglish.ttf);
+}
+body {
+	background-image: url("../Images/bg.jpg");
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	margin: 0;
+	overflow-x: hidden;
+	z-index: 1;
+}
+head {
+	min-height: 100px;
+}
+#dialogLogo {
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+.quoteParagraph {
+	text-align: center;
+	padding: 20px 0 20px 0;
+}
+.quoteParagraph .paragraph {
+	color: #4D8000;
+	font-size: 2.5vw;
+	font-family: SerifFont, serif !important;
+	line-height: 0;
+}
+.quoteParagraph .author {
+	line-height: 0;
+	font-style: italic;
+}
+.ui-widget {
+	margin: 0 auto !important;
+}
+
+.ui-widget-overlay {
+	background-image: url("../Images/dialogBackground.jpg") !important;
+	opacity: 1 !important;
+	filter: Alpha(Opacity=100) !important;
+}
+.bxslider, .bx-prev, .bx-next {
+	position: absolute;
+	z-index: -10 !important;
+}
+
+.clear {
+	clear: both;
+}
+
+.needsPointer {
+	cursor: pointer;
+}
+/*Master Page Top CSS Start*/
+.content {
+	background-color: #fff;
+	margin: auto;
+	width: 90%;
+	height: 90%;
+	min-height: 90vh;
+	box-shadow: 5px 5px 5px #000;
+	font-size: 0.75em;
+	padding-top: 4.5vw;
+	padding-bottom: 5%;
+	overflow: hidden;
+}
+.headerImage {
+	max-height: 90%;
+	max-width: 90%;
+	padding-top: 5px;
+}
+.mainNav {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	height: 10vh;
+	text-align: center;
+	line-height: 2;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+	-webkit-backface-visibility: hidden;
+}
+.mainNav a, .mainNav span {	
+	color: #fff;	
+	cursor: pointer;
+	height: 100%;
+	font-weight: bold;
+	font-size: 1.25vw;
+	line-height: normal;
+	padding: 0 2vw 0 2vw;
+	text-decoration: none;
+	vertical-align: middle;
+}
+.navLinks {
+	padding-top: 1.3vw;
+	max-height: 100%;
+	max-width: 60vw;
+	margin: 0 auto;
+	display: inline-block;
+}
+.navImage {
+	float: left;
+	height: 100%;
+	max-width: 25vw;
+}
+.shoppingCartCombine {
+	display: inline-block;
+	text-align: middle;
+}
+.shoppingCartDiv {
+	display: inline-block;
+	color: white;
+	font-weight: bold;
+	padding: 2vh 5vw 0 0;
+	float: right;
+	height: 100%;
+}
+.shoppingCartDiv img {
+	width: 3vw;
+	height: 3vw;
+	display: inline-block;
+}
+.shoppingCartDiv a {
+	padding: 0 0 0 1vw !important;
+}
+/*Master Page Top CSS End*/
+
+/*Master Page Bottom CSS Start*/
+footer {
+	background: #000;
+	height: 5vw;
+	position: relative;
+}
+
+#footerText {
+	font-size: 0.625em;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%)	
+}
+
+#toTop {
+	height: 90%;
+	float: right;
+	padding-right: 25px;
+}
+/*Master Page Bottom CSS End*/
+
+/*Index Page CSS Start*/
+#indexImage {
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: -1vw;
+	padding: 0;
+}
+
+.sliderImage {
+	width: 100%;
+}
+.styleIndexMain {
+	width: 100%;
+	padding: 0 2.5vw;
+}
+.styleIndexSide {
+	width: 100%;
+}
+.featuredProductDiv {
+	display: inline-block;
+	font-size: 1.25em;	
+	padding: 0 2vw;
+}
+.featuredProductDiv a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+.featuredProductDiv img {
+	width: 12.5vw;	
+	height: 20vw;
+}
+.featuredProductContainer {
+	margin: auto;
+	font-size: 0.75em;
+	display: table;
+}
+
+
+#featuredProductsImg {
+	width: 100%;
+}
+/*Index Page CSS End*/
+
+/*Products Page CSS Start*/
+
+#ProductsImg {
+	width: 100%;
+}
+
+.filterCheckBox {
+	width: 20%;
+	display: inline-block;
+}
+.filterHeader {
+	font-weight: bold;
+	cursor: pointer;
+}
+.filterLabel {
+	width: 70%;
+	display: inline-block;
+}
+.productCell {
+	padding: 0 0 2.5em 0;
+	width: 20vw;
+	height: 30vw;
+	display: inline-block;
+}
+.productDialogForm {
+	margin: auto; 
+	padding-top: 30px;
+	width: 40%;
+	float: right;
+}
+.productImage {
+	cursor: pointer;
+	width: 15vw;
+	height: 25vw;
+}
+.styleProductsSide {
+	padding: 5vh 2.5vw;
+	width: 15%;
+	float: left;
+}
+.styleProductsMain {
+	padding: 5vh 2.5vw;
+	width: 70%;
+	float: left;
+}
+.hidden  {
+	display: none;
+}
+/*Products Page CSS End*/
+
+/*Tutorial Page CSS Start*/
+
+#TutorialImg {
+	width: 100%;
+}
+.tutorialHeader {
+	width: 100%;
+}
+.titleButtons {
+	width: 37.5%;
+	margin: auto;
+}
+.titleButtons input {
+	font-family: SerifFont, serif;
+	display: inline-block;
+	font-size: 2vw;
+	background-color: black;
+	color: white;
+	padding: 10px 10px;
+	margin: 0 1.75vw 0 0;
+}
+.clickMe {
+	font-size: 0.5em;
+	font-weight: normal !important;
+}
+.styleTutorialSide {
+	width: 30%;
+	padding: 5vh 1vw 0 0;
+	float: left;
+}
+.title {
+	text-align: center;
+	font-size: 2vw;
+}
+.title2 {
+	text-align: center;
+	font-size: 1.5vw;
+}
+.titleLinkDiv {
+	margin-bottom: 40px;
+}
+.styleTutorialSide img {
+	width: 32.5vw;
+	height: 32.5vw;
+}
+.styleTutorialMain {
+	width: 60%;
+	float: left;
+	padding: 2vh 0 0 1vw;
+	text-align:  justify;
+	font-size: .80vw;
+}
+.styleTextTutorials {
+	padding: 1vh 0 0 1vw;
+	text-Align: center;
+	font-size: .80vw;
+}
+.tierTwoInstruc {
+	padding-left: 10px;
+}
+.tierThreeInstruc {
+	padding-left: 20px;
+}
+.headerInstruct {
+	font-weight: bold;
+}
+#BowCare {
+	font-size: 1.5vw;
+}
+#bowCareCompoundTitle {
+	font-size: 1.2vw;
+}
+#bowCareWoodTitle {
+	font-size: 1.2vw;
+}
+.YTtitle {
+	padding: 2vh 0 0 1vw;
+	text-Align: center;
+}
+.youtubeTutorialDiv {
+	width: 70%;
+	height: 35vw;
+	margin: auto;
+}
+.youtubeTutorial {
+	width: 100%;
+	height: 100%;
+}
+/*Tutorial Page CSS End*/
+
+/*About Us Page CSS Start*/
+
+p {
+	line-height: 1.5em;
+	font-size: 1.25em;
+}
+
+#aboutUsContent {
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+#aboutUsImage {
+	width: 50%;
+	float: left;
+	margin: 25px;
+}
+
+#contactInfo {
+	background-color: #EEE;
+	width: 100%;
+	font-size: 1.25em;
+}
+
+#contactNumber {
+	font-family: SerifFont, serif !important;
+	font-size: 3.5em;
+	color: #4D8000;
+}
+
+#email {
+	color: #4D8000;
+}
+
+#mainStatement {
+	color: #4D8000;
+	font-size: 2.75em;
+	font-family: SerifFont !important;
+}
+#plant {
+	width: 10vw;
+	margin: 5% auto;
+}
+.plantImgDiv {
+	width: 50%;
+	margin: auto;
+}
+.column-left {
+	float: left;
+	width: 35%;
+	padding-top: 10px;
+	text-align: left;
+	padding-left: 20px;
+}
+.column-left-content {
+	float: left;
+}
+.column-right {
+	float: right;
+	width: 30%;
+}
+.column-center {
+	padding: 15px 0 15px 0;
+	float: left;
+	display: inline-block;
+	width: 25%;
+}
+
+#mainStatement {
+	color: #4D8000;
+	font-style: italic;
+	font-size: 2.5em;
+	font-family: Georgia;
+}
+.aboutUsImageHeader {
+	width: 100%;
+}
+.styleAboutUsMain {
+	text-align: center;
+}
+/*About Us Page CSS End*/
+
+/*Account Dialog Box CSS Start*/
+#dialogLogo {
+	max-width: 50%;
+}
+input { 
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	background: #fff;
+}
+.accountDialogCenterText {
+	text-align: center;
+}
+.dialogSubmitButton {
+	width: 30%;
+}
+.fieldDiv label {
+	font-size: 1.5vw;
+}
+.fieldDiv {
+	padding: 0 0 1.5vw 0;
+}
+.fieldDivSignUp, .submitButtonDiv {
+	padding: 0 0 0.5vw 0;
+}
+.fieldDivSignUp .labelDiv {
+	text-align: left;
+	width: 35%;
+	display: inline-block;
+}
+.fieldDivSignUp .inputDiv {
+	width: 55%;
+	display: inline-block;
+}
+.fieldDivSignUp input, .fieldDivSignUp select {
+	width: 100%;
+}
+.submitInput {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 2vw !important;
+	line-height: 3rem;
+	width: 45%; 
+	height: 3rem;
+	color: #444;
+	border: none;
+	padding: 0 1rem;
+	color: #4D8000;
+	background: #000 !important ;
+	font-weight: bold;
+	cursor: pointer;
+	border-top: 0;
+	border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+	margin-bottom: 1rem;
+}
+.ui-dialog-buttonset .ui-button {
+	color: white !important;
+	background: black !important;
+	border: none !important;
+	font-weight: bold !important;
+}
+/*Account Dialog Box CSS End*/
+
+
+/*Account Page CSS Start*/
+#archer {
+	max-width: 25%;
+	float: right;
+	margin-right: 2.5em;
+}
+
+.def {
+	font-style: italic;
+	font-size: 0.75em;
+	padding-left: 5px;
+}
+
+#userAccountContent {
+	padding: 100px;
+	margin-left: 2.5em;
+}
+
+#infoChange label {
+	font-size: 0.75em;
+}
+.dateItalic {
+	font-style: italic;
+}
+.userAccountAction {
+	
+}
+/*Account Page CSS End*/
+
+/*Check Out Page CSS Start*/
+.shoppingCartCenterMessage {
+	text-align: center;
+}
+.orderFinished {
+	width: 25%;
+	margin: auto;
+}
+.checkOutContainer {
+	width: 99%;
+	margin: auto;
+}
+.headerProductInfo {
+	margin: auto;
+	width: 75%;
+	font-size: 1vw;
+}
+.oneProduct {
+	margin: auto;
+	width: 75%;
+	border-bottom: 1px solid grey;
+	height: 15vw;
+}
+.oneProduct img {
+	width: 10vw;
+	height: 15vw;
+}
+.oneProductCell {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 15%;
+}
+.quantityToRemove {
+	width: 55%;
+}
+/*Check Out Page CSS End*/
+
+
+
+
+/*Order Display CSS Start*/
+.headerOrderInfo {
+	font-size: 1vw;
+	margin: auto;
+	width: 70%;
+}
+.headerOrderInfo .oneProductCell {
+	width: 30% !important;
+	padding-right: 1vw;
+}
+.orderContainer {
+	width: 99%;
+	margin: auto;
+}
+.oneProductCellOrderDisplay {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 15%;
+}
+.oneProductOrderDisplay .oneProductCell {
+	width: 30% !important;
+	padding-right: 1vw;
+}
+.oneProductOrderDisplay img {
+	width: 10vw;
+	height: 15vw;
+}
+.oneProductOrderDisplay {
+	margin: auto;
+	width: 70%;
+	height: 15vw;
+}
+/*Order Display CSS End*/
+
+
+
+/*KYLE*/
+.productDialogImage {
+	width: 250px;
+	height: 350px;
+}
+.shoppingCartSubmit {
+	background-color: black !important;
+	border: none !important;
+	color: white !important;
+}
+.dialogBoxProductTitle {
+	text-align: center;
+	margin: 0 0 10px 0;
+	font-size: 3em;
+	font-family: OldEnglish, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+}
+.dialogBoxProductPrice {
+	font-size: 2em;
+	color: #4D8000;
+	font-family: OldEnglish, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+}
